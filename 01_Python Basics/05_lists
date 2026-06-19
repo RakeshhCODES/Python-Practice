@@ -17,3 +17,50 @@ print(l2[-1])    #-1 is the last item of the list
 l3 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(l3[2:5])  #Range of lists
 
+l4 = ['apple','banana','cherry']
+l4[1] = 'blackcurrent'
+print(l4)  #Changing specific item of list
+
+l5 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+l5[1:4] = ["blackcurrant", "watermelon" , "tomato"]
+print(l5)   #Changing a range of list items
+
+l6 = ['apple','banana','cherry']
+l6.insert(2, "watermelon")
+print(l6)  #Item is inserted into the list and the no. of items are increased.
+
+l7 = ['apple','banana','cherry']
+l7.append("orange")
+print(l7) #append() method is used to add items to the end of the list
+
+l8 = ['apple','banana','cherry']
+l9 = ['orange','cherry','kiwi']
+l8.extend(l9)   #extend() method is used to append list items from another list to current list [end of list]
+print(l8)
+
+l10 = ['apple','banana','cherry']
+l11 = ('kiwi' , 'orange')
+l10.extend(l11)  #extend() can also append tuples , sets , dictionaries , etc.
+print(l10)
+
+l12 = ['apple' , 'banana' , 'cherry']
+l12.remove('cherry') #remove() method removes the specified item
+print(l12)
+
+l13 = ['apple' , 'banana' , 'cherry']
+l13.pop(0) #pop() removes the specified index
+print(l13)
+
+l14 = ['apple' , 'banana' , 'cherry']
+l14.pop() #if index is not specified then the last item is removed.
+print(l14)
+
+l15 = ['apple' , 'banana' , 'cherry']
+l15.clear() #this empties the list
+print(l15)
+
+l16 = ['apple' , 'banana' , 'cherry']
+del l15 #This deletes the entire list
+
+
+
