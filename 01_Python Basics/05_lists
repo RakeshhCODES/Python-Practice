@@ -1,0 +1,19 @@
+# LIST - List is one of the built-in data types in pythons which is used to store multiple items in a single variable.
+# created using square brackets []
+
+# List items are : [ORDERED], [CHANGEABLE] & [DUPLICATE VALUES are allowed].
+# Items are INDEXED starting from [0].
+
+l1 = ['apple','banana','cherry','apple','cherry']  #Duplicate
+print(l1)
+print(len(l1))
+
+l2 = [16 , 28 , 'Rakeshh' , True]
+print(l2)
+print(type(l2))  #Type of list
+print(l2[0])     #Accessing the list items
+print(l2[-1])    #-1 is the last item of the list
+
+l3 = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(l3[2:5])  #Range of lists
+
