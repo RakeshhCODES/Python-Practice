@@ -62,5 +62,26 @@ print(l15)
 l16 = ['apple' , 'banana' , 'cherry']
 del l15 #This deletes the entire list
 
+l17 = ['apple' , 'banana' , 'cherry']
+for items in l17: #This prints all the elements of the list
+    print(items)
 
+l18 = ["apple", "banana", "cherry", "kiwi", "mango"]
+l19 = []
+for x in l18:
+    if 'a' in x:
+        l19.append(x)
+print(l19)
 
+l20 = [100 , 16 , 28 , 33 , 59]
+l20.sort() #sort() methods sorts the list alphanumerically in ascending order.
+print(l20)
+
+l21 = [100 , 16 , 28 , 33 , 59]
+l21.sort(reverse = True) #This sort(reverse = True) sorts the list in descending order.
+print(l21)
+
+l22 = ['ab','bc','cd']
+l23 = [ 16 , 28 , 4 , 3]
+l24 = l22 + l23
+print(l24)
